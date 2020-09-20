@@ -11,8 +11,8 @@ class Config(object):
 
     # REQUIRED
     API_KEY = ""
-    OWNER_ID = "" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = ""
+    OWNER_ID = "650450833" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "jainendrak"
     TELETHON_HASH = None # for purge stuffs
     TELETHON_ID = None
 
@@ -25,9 +25,9 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [650450833]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [650450833]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [650450833]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     WHITELIST_CHATS = []
     BLACKLIST_CHATS = []
     DONATION_LINK = None  # EG, paypal
