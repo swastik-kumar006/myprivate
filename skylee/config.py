@@ -10,11 +10,11 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
+    API_KEY = "1260761369:AAGDXFwrceM-4ypOzSIbLYo_W9SsainwOdo"
     OWNER_ID = "650450833" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "jainendrak"
-    TELETHON_HASH = None # for purge stuffs
-    TELETHON_ID = None
+    OWNER_USERNAME = "@jainendrak"
+    TELETHON_HASH = e51aa7c56708e0408d1709349d34e284 # for purge stuffs
+    TELETHON_ID = 1074100
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://spkxgghydhioid:e83811041861b4e73fca9888861c034b5fefbc1438c418fb810dacfaf3dc03de@ec2-46-137-84-173.eu-west-1.compute.amazonaws.com:5432/d1nf12ipjbp9n2'  # needed for any database modules
